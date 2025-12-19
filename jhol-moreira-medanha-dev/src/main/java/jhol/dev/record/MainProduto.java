@@ -1,4 +1,4 @@
-package jhol.dev.generics.record;
+package jhol.dev.record;
 
 public class MainProduto {
 	

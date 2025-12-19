@@ -1,4 +1,4 @@
-package jhol.dev.generics.record;
+package jhol.dev.record;
 
 public record Produto(String nome, double preco) {
 
