@@ -6,11 +6,19 @@ public class Pedido {
 
 	private String id;
 	private String status;
+	private double valor;
 
 	public Pedido(String id, String status) {
 		super();
 		this.id = id;
 		this.status = status;
+	}
+
+	public Pedido(String id, String status, double valor) {
+		super();
+		this.id = id;
+		this.status = status;
+		this.valor = valor;
 	}
 
 	public String getId() {
@@ -27,6 +35,14 @@ public class Pedido {
 
 	public void setStatus(String status) {
 		this.status = status;
+	}
+
+	public void setValor(double valor) {
+		this.valor = valor;
+	}
+
+	public double getValor() {
+		return valor;
 	}
 
 	@Override
